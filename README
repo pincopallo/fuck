@@ -1,0 +1,33 @@
+
+FUCK - Fantastic User Command Kit
+
+------------------------------------------------------
+  INSTALL
+------------------------------------------------------
+
+1) Put the "ffuck" script somewhere in your PATH 
+   (e.g. ~/bin or /usr/local/bin or /opt) and give
+   it execution privilegies.
+   
+
+2) Add the following alias:
+
+   alias fuck='. ffuck'
+
+   to one of your shell initialization scripts 
+   (e.g. ~/.bashrc or /etc/bash.bashrc).
+ 
+------------------------------------------------------
+  UNINSTALL
+------------------------------------------------------
+
+1) undo INSTALL.2
+2) undo INSTALL.1
+
+Surprisingly, it seems to work also in reverse order!
+
+Fill free to perform them in parallel to get the 
+most out of your multicore processor.
+
+
+

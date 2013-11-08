@@ -1,0 +1,48 @@
+#! /bin/sh
+
+case "$@" in
+
+"all")
+	clear
+	;;
+
+"you")
+	exit
+	;;
+
+"the system"|"off")
+	sudo halt -p
+	;;
+
+"yeah")
+echo ""
+echo -e "                 _. _,,            "
+echo -e "               _a%?9wau\"5a,.       "
+echo -e "            .a\"?4owdZ'']&%6.       "
+echo -e "           <!   ._aaaa,;?)T5.      "
+echo -e "          <'   \"-    -<w[c -r        ______________"
+echo -e "          o              +c [       /              \\"
+echo -e "          4                :(      <   FUCK YEAH!   |"
+echo -e "           5               ]\`       \\______________/"
+echo -e "            ?/            _[       "
+echo -e "             -!aa;4,    _%'.       "
+echo -e "          _a,?\"  ?4B????-          "
+echo -e "        v(         FL              "
+echo -e "       j'          C-L             "
+echo -e "      <(           j -\\/           "
+echo -e "     j'            )c  -?a,        "
+echo -e "    jLa.            \\     ~?\\a,    "
+echo -e "   Jf1 !.           \"c        :Wc  "
+echo -e "   c):\"              3        ))\$ "
+echo -e ""
+;;
+
+*)
+	echo "what the fuck?"
+	echo -e "\tfuck you - exit terminal."
+	echo -e "\tfuck the system - shutdown the system."
+	echo -e "\tfuck off - shutdown the system."
+	echo -e "\tfuck all - clear the screen."
+	echo -e "\tfuck yeah - useless but very cool ;)"
+esac
+
