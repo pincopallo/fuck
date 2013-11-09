@@ -2,19 +2,23 @@
 
 case "$@" in
 
-"all")
+all)
 	clear
 	;;
 
-"you")
+you)
 	exit
+	;;
+
+yes)
+	yes "fuck"
 	;;
 
 "the system"|"off")
 	sudo halt -p
 	;;
 
-"yeah")
+yeah)
 echo ""
 echo -e "                 _. _,,            "
 echo -e "               _a%?9wau\"5a,.       "
@@ -41,6 +45,7 @@ echo -e ""
 	echo "what the fuck?"
 	echo -e "\tfuck you - exit terminal."
 	echo -e "\tfuck the system - shutdown the system."
+	echo -e "\tfuck yes - stubbornly rages against the user."
 	echo -e "\tfuck off - shutdown the system."
 	echo -e "\tfuck all - clear the screen."
 	echo -e "\tfuck yeah - useless but very cool ;)"
