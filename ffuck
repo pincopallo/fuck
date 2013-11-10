@@ -42,12 +42,25 @@ echo -e ""
 ;;
 
 *)
-	echo "what the fuck?"
-	echo -e "\tfuck you - exit terminal."
-	echo -e "\tfuck the system - shutdown the system."
-	echo -e "\tfuck yes - stubbornly rages against the user."
-	echo -e "\tfuck off - shutdown the system."
-	echo -e "\tfuck all - clear the screen."
-	echo -e "\tfuck yeah - useless but very cool ;)"
+	if [ -n "$1" ]
+	then
+		if [ `echo "$1" | grep -c "^[0-9]*$"` -eq 1 ]
+		then
+			kill "$1"
+		else
+			pkill "$1"
+		fi
+		
+	else
+		echo "what the fuck?"
+		echo -e "\tfuck you - exit terminal."
+		echo -e "\tfuck the system - shutdown the system."
+		echo -e "\tfuck yes - stubbornly rages against the user."
+		echo -e "\tfuck off - shutdown the system."
+		echo -e "\tfuck all - clear the screen."
+		echo -e "\tfuck yeah - useless but very cool ;)"
+		echo -e "\tfuck <PROC> - pkill <PROC> (e.g. fuck firefox)"
+		echo -e "\tfuck <PID> - kill <PID>"
+	fi
 esac
 
