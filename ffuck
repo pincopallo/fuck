@@ -41,6 +41,25 @@ echo -e "   c):\"              3        ))\$ "
 echo -e ""
 ;;
 
+"with me")
+while true; do
+clear
+echo
+echo -e " \\O/"
+echo -e "  |"
+echo -e " / \\"
+echo
+sleep 0.5
+clear
+echo
+echo -e "  O"
+echo -e " (|)"
+echo -e " / \\"
+echo
+sleep 0.5
+done
+;;
+
 *)
 	if [ -n "$1" ]
 	then
@@ -61,6 +80,7 @@ echo -e ""
 		echo -e "\tfuck yeah - useless but very cool ;)"
 		echo -e "\tfuck <PROC> - pkill <PROC> (e.g. fuck firefox)"
 		echo -e "\tfuck <PID> - kill <PID>"
+		echo -e "\tfuck with me - just fucks with you"
 	fi
 esac
 
