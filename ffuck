@@ -20,41 +20,41 @@ yes)
 
 yeah)
 echo ""
-echo -e "                 _. _,,            "
-echo -e "               _a%?9wau\"5a,.       "
-echo -e "            .a\"?4owdZ'']&%6.       "
-echo -e "           <!   ._aaaa,;?)T5.      "
-echo -e "          <'   \"-    -<w[c -r        ______________"
-echo -e "          o              +c [       /              \\"
-echo -e "          4                :(      <   FUCK YEAH!   |"
-echo -e "           5               ]\`       \\______________/"
-echo -e "            ?/            _[       "
-echo -e "             -!aa;4,    _%'.       "
-echo -e "          _a,?\"  ?4B????-          "
-echo -e "        v(         FL              "
-echo -e "       j'          C-L             "
-echo -e "      <(           j -\\/           "
-echo -e "     j'            )c  -?a,        "
-echo -e "    jLa.            \\     ~?\\a,    "
-echo -e "   Jf1 !.           \"c        :Wc  "
-echo -e "   c):\"              3        ))\$ "
-echo -e ""
+echo "                 _. _,,            "
+echo "               _a%?9wau\"5a,.       "
+echo "            .a\"?4owdZ'']&%6.       "
+echo "           <!   ._aaaa,;?)T5.      "
+echo "          <'   \"-    -<w[c -r        ______________"
+echo "          o              +c [       /              \\"
+echo "          4                :(      <   FUCK YEAH!   |"
+echo "           5               ]\`       \\______________/"
+echo "            ?/            _[       "
+echo "             -!aa;4,    _%'.       "
+echo "          _a,?\"  ?4B????-          "
+echo "        v(         FL              "
+echo "       j'          C-L             "
+echo "      <(           j -\\/           "
+echo "     j'            )c  -?a,        "
+echo "    jLa.            \\     ~?\\a,    "
+echo "   Jf1 !.           \"c        :Wc  "
+echo "   c):\"              3        ))\$ "
+echo ""
 ;;
 
 "with me")
 while true; do
 clear
 echo
-echo -e " \\O/"
-echo -e "  |"
-echo -e " / \\"
+echo " \\O/"
+echo "  |"
+echo " / \\"
 echo
 sleep 0.5
 clear
 echo
-echo -e "  O"
-echo -e " (|)"
-echo -e " / \\"
+echo "  O"
+echo " (|)"
+echo " / \\"
 echo
 sleep 0.5
 done
@@ -72,15 +72,15 @@ done
 		
 	else
 		echo "what the fuck?"
-		echo -e "\tfuck you - exit terminal."
-		echo -e "\tfuck the system - shutdown the system."
-		echo -e "\tfuck yes - stubbornly rages against the user."
-		echo -e "\tfuck off - shutdown the system."
-		echo -e "\tfuck all - clear the screen."
-		echo -e "\tfuck yeah - useless but very cool ;)"
-		echo -e "\tfuck <PROC> - pkill <PROC> (e.g. fuck firefox)"
-		echo -e "\tfuck <PID> - kill <PID>"
-		echo -e "\tfuck with me - just fucks with you"
+		printf "\tfuck you - exit terminal.\n"
+		printf "\tfuck the system - shutdown the system.\n"
+		printf "\tfuck yes - stubbornly rages against the user.\n"
+		printf "\tfuck off - shutdown the system.\n"
+		printf "\tfuck all - clear the screen.\n"
+		printf "\tfuck yeah - useless but very cool ;)\n"
+		printf "\tfuck <PROC> - pkill <PROC> (e.g. fuck firefox)\n"
+		printf "\tfuck <PID> - kill <PID>\n"
+		printf "\tfuck with me - just fucks with you.\n"
 	fi
 esac
 
